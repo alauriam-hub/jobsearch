@@ -1,6 +1,6 @@
-# Angela Kingdon — AI Career Agent
+# Angela Kingdon — AI-Evaluation Gig Finder
 
-A persistent, git-backed job-search system run by Claude Code acting as Angela's executive search consultant. Goal: **maximize compensation × probability of interview, minimize her time.** Quality over quantity, always.
+A persistent, git-backed system run by Claude Code that finds Angela the best **part-time, hourly, fully-remote, individual-contributor AI-evaluation / human-data gigs** (AI Trainer · LLM Evaluator · AI Writing Expert · Human Feedback · Domain Expert). Goal: **maximize hourly rate × legitimacy × ease, minimize her time.** No career/management/PMM/comms/exec roles — those are explicitly out of scope.
 
 ## How it works
 Each session/day the agent reads `profile/angela-kingdon.md` + `AGENT.md`, searches the watchlist, scores new roles on the rubric, logs everything to `data/jobs.csv`, and writes a brief to `reports/`. Only roles scoring ≥ 8.0 are recommended.
